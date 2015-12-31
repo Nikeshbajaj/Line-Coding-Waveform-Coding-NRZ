@@ -13,8 +13,9 @@
 ###Example
 #### After saving file in your current directory, execute following
 
->> a = [1 0 1 1 0 1 1]
->> [U P B M S] = LC_nrz(a)
+#### >> a = [1 0 1 1 0 1 1]
+
+#### >> [U P B M S] = LC_nrz(a)
 
 
 ####===========================================
