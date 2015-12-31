@@ -3,8 +3,8 @@
 ### Important to note this that this is a function file not script, you need to pass parameters to execute this program.
 
 ####Step 1. Save "LC_nrz.m" in your current directory of MATLAB
-####Step 2. define binary sequence a, e.g.  a = [1 0 0 1 1  0 1 0 1 1]
-####Step 3. then write [U P B M S]=LC_nrz(a)
+####Step 2. define binary sequence a, e.g.  ` a = [1 0 0 1 1  0 1 0 1 1]`
+####Step 3. then write ` [U P B M S]=LC_nrz(a) `
 
 ###Explaination
 #### 'a' is input data sequence
@@ -13,10 +13,10 @@
 ###Example
 #### After saving file in your current directory, execute following
 
-#### >> a = [1 0 1 1 0 1 1]
-
-#### >> [U P B M S] = LC_nrz(a)
-
+```
+a = [1 0 1 1 0 1 1]
+[U P B M S] = LC_nrz(a)
+```
 
 ####===========================================
 ###### If any doubt, confusion or feedback please contact
